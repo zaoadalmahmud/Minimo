@@ -1,0 +1,365 @@
+/* font-family: 'Playfair Display', serif; 
+font-family: 'Ubuntu', sans-serif; */
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+
+width: 90%;
+
+margin-left: 5%;
+
+display: flex;
+
+justify-content: space-between;
+
+padding: 55px 0;
+}
+.logo{
+
+width: 20%;
+}
+nav{
+
+width: 50%;
+}
+nav ul{
+
+/* width: 50%; */
+
+list-style: none;
+
+display: flex;
+
+justify-content: space-between;
+}
+nav ul li{
+font-family: 'Playfair Display', serif;
+text-transform: uppercase;
+
+/* list-style: none; */
+
+/* display: flex; */
+
+/* justify-content: space-between; */
+
+/* width: 50%; */
+}
+.banner{
+
+}
+.banner img{
+
+width: 90%;
+
+margin-left: 5%;
+
+margin-bottom: 100px;
+}
+.photodairy{
+
+width: 80%;
+
+margin-left: 12%;
+}
+.photodairy h5{
+font-family: 'Ubuntu', sans-serif;
+margin-bottom: 22px;
+
+text-transform: uppercase;
+
+color: #b4ad9e;
+
+font-size: 16px;
+}
+.photodairy h1{
+font-family: 'Playfair Display', serif;
+margin-bottom: 26px;
+
+color: #626262;
+
+font-size: 30px;
+
+text-transform: capitalize;
+}
+.photodairy p{
+font-family: 'Playfair Display', serif;
+margin-bottom: 40px;
+
+font-size: 17px;
+
+color: #626262;
+}
+.photodairy h6{
+font-family: 'Ubuntu', sans-serif;
+margin-bottom: 80px;
+
+text-transform: uppercase;
+
+color: #b4ad9e;
+
+font-size: 14px;
+}
+.lifestyle{
+
+display: flex;
+
+justify-content: space-between;
+
+width: 80%;
+
+margin-left: 12%;
+
+flex-wrap: wrap;
+}
+.imgo{width: 45%;}
+.imgo img{
+
+margin: 45px 0;
+
+width: 100%;
+}
+.imgo h5{font-family: 'Ubuntu', sans-serif;margin-bottom: 20px;text-transform: uppercase;color: #b4ad9e;font-size: 14px;}
+.imgo h1{
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 26px;
+    color: #626262;
+    font-size: 33px;
+}
+.imgo p{
+
+font-family: 'Playfair Display', serif;
+
+margin-bottom: 40px;
+
+font-size: 17px;
+
+color: #626262;
+}
+.imgt{width: 45%;}
+.imgt img{
+
+margin: 45px 0;
+
+width: 100%;
+}
+.imgt h5{
+
+font-family: 'Ubuntu', sans-serif;
+
+margin-bottom: 20px;
+
+text-transform: uppercase;
+
+color: #b4ad9e;
+
+font-size: 14px;
+}
+.imgt h1{
+
+font-family: 'Playfair Display', serif;
+
+margin-bottom: 26px;
+
+color: #626262;
+
+font-size: 36px;
+}
+.imgt p{
+
+font-family: 'Playfair Display', serif;
+
+margin-bottom: 40px;
+
+font-size: 17px;
+
+color: #626262;
+}
+.img-three{
+
+width: 45%;
+}
+.img-three img{
+    
+margin: 45px 0;
+    
+width: 100%;
+}
+.img-three h5{
+    
+font-family: 'Ubuntu', sans-serif;
+    
+margin-bottom: 20px;
+    
+text-transform: uppercase;
+    
+color: #b4ad9e;
+    
+font-size: 14px;
+}
+.img-three h1{
+    
+font-family: 'Playfair Display', serif;
+    
+margin-bottom: 26px;
+    
+color: #626262;
+    
+font-size: 35px;
+}
+.img-three p{
+
+font-family: 'Playfair Display', serif;
+
+margin-bottom: 40px;
+
+font-size: 17px;
+
+color: #626262;
+}
+.img-four{
+
+width: 45%;
+}
+.img-four img{
+
+margin: 45px 0;
+
+width: 100%;
+}
+.img-four h5{
+
+font-family: 'Ubuntu', sans-serif;
+
+margin-bottom: 20px;
+
+text-transform: uppercase;
+
+color: #b4ad9e;
+
+font-size: 14px;
+}
+.img-four h1{
+
+font-family: 'Playfair Display', serif;
+
+margin-bottom: 26px;
+
+color: #626262;
+
+font-size: 33px;
+}
+.img-four p{
+
+font-family: 'Playfair Display', serif;
+
+margin-bottom: 40px;
+
+font-size: 17px;
+
+color: #626262;
+}
+.newslatter{
+
+background: #f0f0f0;
+
+padding: 80px;
+}
+.news{
+    
+width: 40%;
+    
+margin: auto;
+}
+.news h1{
+    
+margin-bottom: 60px;
+    
+font-size: 40px;
+    
+width: 100%;
+    
+color: #757575;
+}
+.news input{
+    
+border: none;
+    
+background: transparent;
+    
+border-bottom: 1px solid #757575;
+    
+width: 100%;
+}
+.news input:focus{
+    outline: none;
+}
+.news input::placeholder{
+    color: #757575;
+}
+.load{
+
+text-align: center;
+
+margin: 115px 0;
+}
+.load button{
+
+padding: 13px 30px;
+
+color: #757575;
+
+font-family: 'Playfair Display', regular;
+
+font-size: 20px;
+
+background: transparent;
+}
+footer{
+
+background: #f0f0f0;
+
+padding: 30px 0;
+}
+.footer-content{
+
+display: flex;
+
+justify-content: space-between;
+
+width: 80%;
+
+margin: auto;
+}
+.terms{width: 20%;display: flex;justify-content: space-between;}
+.terms ul{
+
+list-style: none;
+
+display: flex;
+
+justify-content: space-between;
+
+width: 100%;
+}
+.terms ul li{
+
+}
+.social{
+
+width: 20%;
+}
+.social ul{
+    
+list-style: none;
+    
+display: flex;
+    
+justify-content: space-between;
+    
+width: 100%;
+}
+.social ul li{
+    
+}
