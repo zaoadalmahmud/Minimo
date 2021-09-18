@@ -271,6 +271,8 @@ padding: 80px;
 width: 40%;
     
 margin: auto;
+    
+position: relative;
 }
 .news h1{
     
@@ -362,4 +364,12 @@ width: 100%;
 }
 .social ul li{
     
+}
+.icon{
+    
+position: absolute;
+    
+right: 0;
+    
+bottom: 0;
 }
